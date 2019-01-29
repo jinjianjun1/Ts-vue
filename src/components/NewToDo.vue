@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="todolist">
         <input type="text" v-model="text">
         <button @click="addList">添加</button>
     </div>
@@ -19,5 +19,7 @@
 </script>
 
 <style scoped lang="scss">
+.todolist{
 
+}
 </style>
